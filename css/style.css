@@ -1,0 +1,110 @@
+.btn{
+    padding: 10px 8px;
+    width: 200px;
+    color: #fff;
+    background: #56ccf2;
+    border: 1px solid;
+    border-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    text-align:left;
+    user-select: none;
+    cursor: pointer;
+    transition: background 1s;
+    margin-left: 10%;
+}
+
+.btn:hover{
+    background: #94d7ee;
+}
+.btnCad{
+    padding: 10px 8px;
+    width: 217px;
+    color: #fff;
+    background: #56ccf2;
+    border: 1px solid;
+    border-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    text-align:left;
+    user-select: none;
+    cursor: pointer;
+    transition: background 1s;
+    margin-left: 10%;
+}
+
+.btn2:hover{
+    background: #6fcff0;
+}
+body{
+    background-color: rgb(235, 235, 235);
+    font-family:monospace;
+}
+
+.logo{
+    height: 7vh;
+    width: 20vh;
+    border: 7px solid;
+    border-color:rgba(235, 235, 235, 0);
+}
+
+.btn3{
+    padding: 10px 8px;
+    width: 200px;
+    color: #fff;
+    background: #04bb0d;
+    border: 1px solid;
+    border-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    text-align:left;
+    user-select: none;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.btn3:hover{
+    background: #04e00f;
+}
+
+h1{
+   text-align: center;
+   color:#00b4f0;
+}
+
+.form1{
+    background-color: #fff;
+    width: 800px;
+    height: 380px;
+    margin-left: 27%;
+    z-index: 10;
+    margin-top: -5.5%;
+    font-size: 110%;
+    border-color: #6fcff0;
+}
+
+img{
+    margin-left: 10%;
+}
+
+input{
+    margin: 10px;
+    height: 23px;
+}
+
+
+
+label{
+    color: rgb(102, 102, 102);
+}
+
+#rightn{
+    margin-left: 50%;
+}
+#rightt{
+    margin-left: 64.7%;
+}
+
+#nome{
+    margin-left: 26%;
+    width: 300px;
+}
+
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <img class="logo" src="imagens/Sem Título-1.png">
+    <div <button id="btn1" class="btn" onclick="" <?php include "imagens/user.svg"; ?>>Cadastro
+
+    </button> </div>
+
+    <button id="btn2" class="btnCad" onclick="">Lista de cadastrados
+    </button>  
+
+    <div id="divcad" class="cadastro" style="display:none;">
+        <form class="form1">
+            <fieldset>
+                    <h1>CADASTRO</h1> 
+                <div>
+                    <label id="email">E-mail pessoal do candidato</label><label id="rightn">Nome completo</label><br>
+                    <input type="email" name="email" id="email">               
+                    <input type="text" name="nome" id="nome">
+                </div>
+    
+                <div>
+                    <label>E-mail</label> <label id="rightt">Telefone(DDD)</label> <br>
+                    <input type="email" name="email2" id="email2">
+                    <input type="number" name="nome" id="telefone">
+                </div>
+    
+                <div>
+                    <label>Rua</label><label id="rightnum" >N°</label> <br>
+                    <input type="text" name="rua" id="rua">                 
+                    <input type="number" name="numero" id="numero">
+                </div>
+    
+                <div>
+                    <label>Complemento</label><label id="rightb">Bairro</label> <br>
+                    <input type="text" name="complemento" id="complemento">                
+                    <input type="text" name="bairro" id="bairro">
+                </div>
+    
+                <div>
+                    <label>CEP</label> <label id="rightc">Cidade</label> <label>UF</label> <br>
+                    <input type="text" name="cep" id="cep">
+                    <input type="text" name="cidade" id="cidade">
+                    <input type="number" name="UF" id="UF">
+                </div>
+    
+                <div <button id="btn3" class="btn3" onclick="" <?php include "imagens/user.svg"; ?>>Cadastrar
+    
+                </button> </div>
+    
+            </fieldset>
+        </form>
+        
+        </div>
+
+    <div class="lista" style="display:none;">
+        teste</div>
+
+    </div>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script> //botão "cadastro"
+    $(document).ready(function(){
+        
+        $("#btn1").click(function(){
+            
+            if($('.cadastro').is(":visible")){
+               
+                $(".cadastro").slideUp();
+
+            }else{
+
+                $(".cadastro").slideDown();
+                $(".lista").slideUp();                
+            }
+        })
+        
+    });
+    </script>
+
+    <script> //botão "lista de cadastros"
+        $(document).ready(function(){
+            
+            $("#btn2").click(function(){
+                
+                if($('.lista').is(":visible")){
+                   
+                    $(".lista").slideUp();
+    
+                }else{
+    
+                    $(".lista").slideDown(); 
+                    $(".cadastro").slideUp();               
+                }
+            })
+            
+        });
+        </script>
+</body>
+</html>
