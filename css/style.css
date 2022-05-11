@@ -48,16 +48,17 @@ body{
 
 .btn3{
     padding: 10px 8px;
-    width: 200px;
+    width: 130px;
     color: #fff;
     background: #04bb0d;
     border: 1px solid;
     border-color: rgb(235, 235, 235);
     border-radius: 5px;
-    text-align:left;
+    text-align:center;
     user-select: none;
     cursor: pointer;
     transition: background 1s;
+    margin-left: 74%;
 }
 
 .btn3:hover{
@@ -71,13 +72,12 @@ h1{
 
 .form1{
     background-color: #fff;
-    width: 800px;
-    height: 380px;
+    width: 798px;
+    height: 454px;
     margin-left: 27%;
     z-index: 10;
     margin-top: -5.5%;
     font-size: 110%;
-    border-color: #6fcff0;
 }
 
 img{
@@ -85,26 +85,126 @@ img{
 }
 
 input{
-    margin: 10px;
-    height: 23px;
+    margin-top: 10px;
+    height: 26px;
 }
-
-
 
 label{
     color: rgb(102, 102, 102);
 }
 
 #rightn{
-    margin-left: 50%;
+    position: absolute;
+    left: 33%;
+    top: 24%;
+    margin-left: 25%;
 }
 #rightt{
-    margin-left: 64.7%;
+    position: absolute;
+    left: 12.7%;
+    top: 34%;
+    margin-left: 45.3%;
 }
+#rightnum{
+    position: absolute;
+    left: 8.3%;
+    top: 43.5%;
+    margin-left: 50%;
+}
+
+#rightb{
+    position: absolute;
+    left: 8%;
+    top: 52.6%;
+    margin-left: 50%;
+}
+
+#rightc{
+    position: absolute;
+    left: 8%;
+    top: 62%;
+    margin-left: 50%;
+}
+
 
 #nome{
-    margin-left: 26%;
-    width: 300px;
+    margin-left: 2%;
+    width: 310px;
+}
+
+#cidade{
+    margin-left: 2%;
+    width: 210px;
+}
+
+#UF{
+    margin-left: 1.8%;
+    width: 70px;
+    
+}
+
+#left{
+    margin-left: 8%;
+    width: 310px;
+    margin-top: 0;
+}
+
+#cep{
+    position: absolute;
+    left: -17%;
+    top: 62%;
+    margin-left: 50%;
+}
+
+#compl{
+    position: absolute;
+    left: -17.2%;
+    top: 52.7%;
+    margin-left: 50%;
+}
+
+#rua{
+    position: absolute;
+    left: -17.2%;
+    top: 43.4%;
+    margin-left: 50%;
+}
+
+#email{
+    position: absolute;
+    left: -17.2%;
+    top: 34%;
+    margin-left: 50%;
+}
+
+#emailp{
+    position: absolute;
+    left: -17.2%;
+    top: 24.5%;
+    margin-left: 50%;
 }
 
 
+.form2{
+    background-color: #fff;
+    width: 800px;
+    height: 452px;
+    margin-left: 27%;
+    z-index: 10;
+    margin-top: -5.5%;
+    font-size: 110%;
+}
+
+#borda{
+    border: 20px;
+    border-color: rgb(99, 99, 99);
+}
+
+h3{
+    color:rgb(128, 128, 128);
+    margin-left: 6%;
+}
+
+h2{
+    margin-left: 6%;
+}

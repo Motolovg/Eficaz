@@ -18,42 +18,45 @@
 
     <div id="divcad" class="cadastro" style="display:none;">
         <form class="form1">
-            <fieldset>
+            <fieldset id="borda">
                     <h1>CADASTRO</h1> 
                 <div>
-                    <label id="email">E-mail pessoal do candidato</label><label id="rightn">Nome completo</label><br>
-                    <input type="email" name="email" id="email">               
+                    <label id="emailp">E-mail pessoal do candidato</label><label id="rightn">Nome completo</label><br>
+                    <input type="email" name="email" id="left">               
                     <input type="text" name="nome" id="nome">
                 </div>
     
                 <div>
-                    <label>E-mail</label> <label id="rightt">Telefone(DDD)</label> <br>
-                    <input type="email" name="email2" id="email2">
-                    <input type="number" name="nome" id="telefone">
+                    <label id="email">E-mail</label> <label id="rightt">Telefone(DDD)</label> <br>
+                    <input type="email" name="email2" id="left">
+                    <input type="number" name="nome" id="nome">
                 </div>
     
                 <div>
-                    <label>Rua</label><label id="rightnum" >N°</label> <br>
-                    <input type="text" name="rua" id="rua">                 
-                    <input type="number" name="numero" id="numero">
+                    <label id="rua"r>Rua</label><label id="rightnum" >N°</label> <br>
+                    <input type="text" name="rua" id="left">                 
+                    <input type="number" name="numero" id="nome">
                 </div>
     
                 <div>
-                    <label>Complemento</label><label id="rightb">Bairro</label> <br>
-                    <input type="text" name="complemento" id="complemento">                
-                    <input type="text" name="bairro" id="bairro">
+                    <label id="compl">Complemento</label><label id="rightb">Bairro</label> <br>
+                    <input type="text" name="complemento" id="left">                
+                    <input type="text" name="bairro" id="nome">
                 </div>
     
                 <div>
-                    <label>CEP</label> <label id="rightc">Cidade</label> <label>UF</label> <br>
-                    <input type="text" name="cep" id="cep">
+                    <label id="cep">CEP</label> <label id="rightc">Cidade</label> <br>
+                    <input type="text" name="cep" id="left">
                     <input type="text" name="cidade" id="cidade">
                     <input type="number" name="UF" id="UF">
+                    <label>UF</label> 
                 </div>
+                <br>
     
                 <div <button id="btn3" class="btn3" onclick="" <?php include "imagens/user.svg"; ?>>Cadastrar
     
                 </button> </div>
+                <br>
     
             </fieldset>
         </form>
@@ -61,9 +64,16 @@
         </div>
 
     <div class="lista" style="display:none;">
-        teste</div>
+        <div id="divint">
+            <form class="form2">          
+                <h3>Lista de cadastrados</h3>
+                <h2 id="filtros">FILTROS</h2>    
+            </form>
+        </div>    
+    </div>
 
     </div>
+
     <script src="js/scripts.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
